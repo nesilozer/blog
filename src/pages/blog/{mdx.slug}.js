@@ -3,7 +3,7 @@ import Layout from '../../components/layout'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage} from 'gatsby-plugin-image'
-import { lay } from './{mdx.slug}.module.css'
+import { dateTime } from './{mdx.slug}.module.css'
 
 
 const BlogPost = ({ data }) => {
@@ -11,7 +11,7 @@ const BlogPost = ({ data }) => {
   return (
     <>
       <Layout pageTitle={data.mdx.frontmatter.title}>
-      <div className={lay}>
+      <div className={dateTime}>
        <p>{data.mdx.frontmatter.date} | {data.mdx.timeToRead}-minute read</p>
         <GatsbyImage
         image={image}
@@ -34,7 +34,7 @@ query ($id: String) {
       hero_image {
         id
         childImageSharp {
-          gatsbyImageData(width: 550, height: 350)
+          gatsbyImageData(width: 650, height: 350)
         }
       }
       title

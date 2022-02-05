@@ -7,7 +7,7 @@ import { post } from './styles.module.css'
 
 const BlogPage = ({data}) => {
    return (
-     <>
+    <>
       <Layout pageTitle="Every Post Ever">
         <br></br>
         <div className={post}>
@@ -23,7 +23,7 @@ const BlogPage = ({data}) => {
       }
         </div>
       </Layout>
-      </> 
+    </> 
     )
 }
 

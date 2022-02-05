@@ -5,16 +5,14 @@ body {
 }
 
 
-
 .container {
-  /* display: flex; */
-
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
   min-height: 100vh;
-  max-width: 768px;
   margin: auto;
-
 }
+
 
 .heading { 
     color: black;
@@ -26,7 +24,7 @@ body {
     font-size: 3rem;
     color:#08566b;
     font-weight: 700;
-    margin: 1rem 0;
+    margin: 0;
     font-family: 'Dancing Script', cursive;
     text-align: center;
   }
@@ -34,3 +32,11 @@ body {
   .post-title {
     text-align: center;
   }
+
+  .main {
+    width: 100%;
+    max-width: 50rem;
+    margin: auto;
+    flex: 1;
+  }
+  

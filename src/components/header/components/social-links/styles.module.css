@@ -1,0 +1,15 @@
+.social-links {
+    display: flex;
+    justify-content: center; 
+    list-style-type: none;
+    padding-left: 0.5rem;
+  }
+  
+  .social-links-text {
+      padding: 0.5rem;
+  }
+
+  .social-links a {
+    color: red;
+  }
+  

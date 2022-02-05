@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+body {
+  font-family: 'Merriweather','Georgia',serif;
+}
+
+
+
+.container {
+  /* display: flex; */
+
+  padding: 2rem;
+  min-height: 100vh;
+  max-width: 768px;
+  margin: auto;
+
+}
+
+.heading { 
+    color: black;
+    text-align: center;
+  }
+
+
+.site-title {
+    font-size: 3rem;
+    color:#08566b;
+    font-weight: 700;
+    margin: 1rem 0;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+
+  .post-title {
+    text-align: center;
+  }

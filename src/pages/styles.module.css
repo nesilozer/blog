@@ -1,0 +1,28 @@
+.box {
+    padding:0.4rem;
+    /* justify-content: center; */
+    text-align: center;
+    margin: auto;
+    width:280px;
+    height:60px;
+    border:6px solid #5592FE;
+    background-color: #EDF7FF;
+    border-radius: 1ch;
+
+}
+
+.title {
+    display:none;
+}
+
+.paraph {
+    padding: 0.2rem;
+    margin-left: 1.8rem;
+    margin-bottom: 3rem;
+    margin-top: 2.5rem;
+}
+
+.picture {
+    text-align: center;
+}
+

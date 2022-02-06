@@ -7,7 +7,7 @@ import { entryContent, picture } from './styles.module.css'
 const IndexPage = ({pageTitle, children}) => {
     return(
      <main>
-         <Layout pageTitle="">
+         <Layout>
              <div className={picture}>
             <StaticImage 
                 src="../images/nes.png"

@@ -13,6 +13,7 @@ const IndexPage = ({pageTitle, children}) => {
                 src="../images/nes.png"
                 width={236}
                 height={266}
+                placeholder='none'
                 imgStyle={{ borderRadius: '50%' }}
                 alt="selfie"
                 />

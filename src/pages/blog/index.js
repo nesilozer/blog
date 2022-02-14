@@ -18,6 +18,7 @@ const BlogPage = ({data}) => {
             <h2>{node.frontmatter.title}</h2>
           </Link>
            {node.frontmatter.date} | {node.timeToRead}-minute read
+           <br/><br/><br/>
           </article>
         ))
       }

@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTwitter } from "@fortawesome/free-brands-svg-icons"
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
+import { faTwitter, faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+
 import {
     socialLinks,
     socialLinksText,
@@ -16,6 +16,9 @@ const SocialLinks = () => {
         </li>
         <li className={socialLinksText}>
           <a href="https://www.linkedin.com/in/nesilozer/"><FontAwesomeIcon icon={faLinkedin} size="lg" color="blue" alt="icon" /></a>
+        </li>
+        <li className={socialLinksText}>
+          <a href="https://github.com/nesilozer"><FontAwesomeIcon icon={faGithub} size="lg" color="blue" alt="icon" /></a>
         </li>
      </ul>
     )

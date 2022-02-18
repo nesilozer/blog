@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
       title: `Nesil Özer`,
-        siteUrl: `https://www.yourdomain.tld`,
+        siteUrl: `https://www.nesilozer.com`,
     },
     plugins: [
       {

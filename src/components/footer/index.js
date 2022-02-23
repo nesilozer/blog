@@ -5,10 +5,10 @@ import SocialLinks from '../header/components/social-links'
 
 const Footer = () => {
     return (
-    <footer className={footer}>
-        <p>Made by Nesil Ozer © 2022</p> 
-        <SocialLinks />
-    </footer>  
+        <footer className={footer}>
+            <p>Made by Nesil Ozer © 2022</p> 
+            <SocialLinks />
+        </footer>  
     )
 }
 

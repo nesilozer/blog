@@ -9,19 +9,19 @@ import {
 import "@fontsource/open-sans" 
 
 const SocialLinks = () => {
-    return (
+  return (
     <ul className={socialLinks}>
-        <li className={socialLinksText}>
-          <a href="https://twitter.com/fachtti"><FontAwesomeIcon icon={faTwitter} size="lg" color="blue" alt="icon" /></a>
-        </li>
-        <li className={socialLinksText}>
-          <a href="https://www.linkedin.com/in/nesilozer/"><FontAwesomeIcon icon={faLinkedin} size="lg" color="blue" alt="icon" /></a>
-        </li>
-        <li className={socialLinksText}>
-          <a href="https://github.com/nesilozer"><FontAwesomeIcon icon={faGithub} size="lg" color="blue" alt="icon" /></a>
-        </li>
-     </ul>
-    )
+      <li className={socialLinksText}>
+        <a href="https://twitter.com/fachtti"><FontAwesomeIcon icon={faTwitter} size="lg" color="blue" alt="icon" /></a>
+      </li>
+      <li className={socialLinksText}>
+        <a href="https://www.linkedin.com/in/nesilozer/"><FontAwesomeIcon icon={faLinkedin} size="lg" color="blue" alt="icon" /></a>
+      </li>
+      <li className={socialLinksText}>
+        <a href="https://github.com/nesilozer"><FontAwesomeIcon icon={faGithub} size="lg" color="blue" alt="icon" /></a>
+      </li>
+    </ul>
+  )
 }
 
 export default  SocialLinks

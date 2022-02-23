@@ -17,8 +17,8 @@ const BlogPage = ({data}) => {
             <GatsbyImage image={getImage(node.frontmatter.hero_image)} alt="" />
             <h2>{node.frontmatter.title}</h2>
           </Link>
-           {node.frontmatter.date} | {node.timeToRead}-minute read
-           <br/><br/><br/>
+          {node.frontmatter.date} | {node.timeToRead}-minute read
+          <br/><br/><br/>
           </article>
         ))
       }
@@ -27,6 +27,7 @@ const BlogPage = ({data}) => {
     </> 
     )
 }
+
 
 export const query = graphql`
   

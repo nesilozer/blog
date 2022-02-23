@@ -11,17 +11,17 @@ const BlogPost = ({ data }) => {
   return (
     <>
       <Layout pageTitle={data.mdx.frontmatter.title}>
-      <div className={dateTime}>
-       <p>{data.mdx.frontmatter.date} | {data.mdx.timeToRead}-minute read</p>
-        <GatsbyImage
-        image={image}
-        alt={data.mdx.frontmatter.hero_image_alt}
-         />
-      </div>
-      <MDXRenderer>
-        {data.mdx.body}
-      </MDXRenderer>
-    </Layout>
+        <div className={dateTime}>
+          <p>{data.mdx.frontmatter.date} | {data.mdx.timeToRead}-minute read</p>
+          <GatsbyImage
+            image={image}
+            alt={data.mdx.frontmatter.hero_image_alt}
+          />
+        </div>
+        <MDXRenderer>
+          {data.mdx.body}
+        </MDXRenderer>
+      </Layout>
     </>
     )
 }

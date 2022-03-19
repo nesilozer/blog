@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: nesilozer.com
-Token: 69a108f135f081f3499344265e8ab0bbd8326f39e4ef5b42c8eaff5ff722dc0f
+Token: 2cb3fcd58a5b82f144e0d67d17adf45e659bebea9d1d6129cd951a49db6bb0af

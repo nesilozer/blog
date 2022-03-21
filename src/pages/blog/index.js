@@ -39,7 +39,7 @@ export const query = graphql`
         title
         hero_image {
           childImageSharp {
-            gatsbyImageData(width: 450, height: 350)
+            gatsbyImageData(width: 550, height: 350)
           }
         }
       }

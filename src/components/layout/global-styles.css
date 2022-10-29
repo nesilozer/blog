@@ -17,25 +17,30 @@ body {
 h1 {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem;
+  color: black;
 }
 
 h2 {
   font-size: 21px;
+  color: black;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: normal;
+  color: black;
 }
 
 a {
-  color: black;
+  color:#237CB5;
   text-decoration: none;
 }
 
+
 a:hover, a:focus {
-  border-bottom: solid 0.25rem var(--blue);
   transition: color .3s;
+  
+  
 }
 
 .header-anchor,

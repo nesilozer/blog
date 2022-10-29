@@ -19,7 +19,7 @@ const BlogPost = ({ data }) => {
           />
         </div>
         <MDXRenderer>
-          {data.mdx.body}
+           {data.mdx.body}
         </MDXRenderer>
       </Layout>
     </>

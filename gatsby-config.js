@@ -2,6 +2,7 @@ module.exports = {
     siteMetadata: {
       title: `Nesil Özer`,
         siteUrl: `https://www.nesilozer.com`,
+        image: `blog/truebit/truebit.jpeg`,
     },
     plugins: [
       {
